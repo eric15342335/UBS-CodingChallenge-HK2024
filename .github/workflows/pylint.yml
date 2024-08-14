@@ -24,5 +24,6 @@ jobs:
         pylint $(git ls-files '*.py') --exit-zero
     - name: Run the tests
       run: |
+        cd entry-src
         python main.py input.json
         diff output.json expected_output.json
