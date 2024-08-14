@@ -65,8 +65,8 @@ class Student:
         self,
         id: int,
         homeLocation: list[int],
-        alumni: str = None,
-        volunteer: str = None,
+        alumni: str | None = None,
+        volunteer: str | None = None,
     ) -> None:
         """
         Initializes a new instance of the class.
@@ -79,8 +79,8 @@ class Student:
         """
         self.id: int = id
         self.homeLocation: list[int] = homeLocation
-        self.alumni: str = alumni
-        self.volunteer: str = volunteer
+        self.alumni: str | None = alumni
+        self.volunteer: str | None = volunteer
 
     def homeSchoolDistance(self, school: School) -> float:
         """
