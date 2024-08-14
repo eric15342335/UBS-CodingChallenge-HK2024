@@ -4,7 +4,7 @@ This is my submission for the UBS Global Coding Challenge, Hong Kong Edition, 20
 
 Assumptions:
 * The JSON file is valid and not empty, and the schema is UTF-8 encoded.
-* Python >=3.9 is used for this submission.
+* Python >=3.10 is used for this submission.
 * If two students have the same weightage score for different schools,
     the student with a smaller numerical ID value will be selected to enroll
     in the school that appears first in the JSON file.
